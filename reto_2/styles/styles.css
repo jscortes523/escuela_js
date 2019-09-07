@@ -1,0 +1,83 @@
+body {
+  font-family: "Noto Sans HK", sans-serif;
+  margin: 0px;
+}
+
+.header {
+  background-color: #21C08B;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__img {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.page_not_found {
+  background: linear-gradient(#21C08B, #AB88FF);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 157px 30px;
+}
+
+.page_not_found p {
+  padding: 0;
+}
+
+.page_not_found h1 {
+  font-size: 50px;
+  margin: 0px;
+}
+
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
+.footer {
+  background-color: #AB88FF;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.footer a {
+  color: white;
+  padding-left: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Noto Sans HK", sans-serif;
+  cursor: pointer;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */
